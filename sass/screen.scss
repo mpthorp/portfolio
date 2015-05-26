@@ -15,6 +15,8 @@
 @import "foundation/_settings.scss";
 @import "foundation.scss";
 @import "fonts.scss";
+@import "slick.scss";
+@import "slick-theme.scss";
 
 /**************************************************/
 // VARIABLES
@@ -25,6 +27,7 @@
 
 // FONTS
 
+$font-thin					: 'lasiverthin';
 $font-light					: 'lasiverlight';
 $font-regular				: 'lasiverregular';
 $font-regular-italic		: 'lasiveritalic';
@@ -36,6 +39,7 @@ $white						: #FFFFFF;
 $black						: #000000;
 $text-black					: #36363a;
 $text-grey					: #bccbcf;
+$text-grey-dark				: #97a6aa;
 
 /**************************************************/
 // GLOBAL STYLES
@@ -52,7 +56,28 @@ body{
 	padding: 0;
 	background: black url(../images/background_1920.jpg) center top no-repeat fixed;
 	background-size: cover;
-	-webkit-font-smoothing: antialiased;
+
+	&.under-construction{
+		background: black url(../images/background_blurred_1920.jpg) center top no-repeat fixed;
+		position: relative;
+		text-align: center;
+
+		h1{
+			font-family: $font-thin;
+			padding: 0 40px;
+			width: 100%;
+			position: absolute;
+			font-size: 40px;
+			top: 50%;
+			margin-top: -30px;
+
+			span{
+				font-family: $font-script;
+				font-size: 60px;
+				padding-right: 10px;
+			}
+		}
+	}
 
 	#blurred-image-container {
 		display:block;
@@ -138,6 +163,7 @@ body{
 						left: 50%;
 						opacity: 0;
 						margin-bottom: -14px;
+						margin-left: -14px;
 						font-family: $icons;
 						content: '\ed5e';
 						font-size: 28px;
@@ -205,6 +231,7 @@ body{
 					}
 
 					a{
+						-webkit-font-smoothing: antialiased;
 						font-family: $icons;
 						width: 80px; height: 80px;
 						display: inline-block;
@@ -235,6 +262,7 @@ body{
 	.reveal-modal{
 		border-radius: 0 !important;
 		border: none;
+		padding: 1.250rem 0.625rem 0.625rem 0.625rem !important;
 
 		&:focus{outline: none}
 
@@ -245,32 +273,50 @@ body{
 			line-height: 40px;
 		}
 
-		.main-image{
+		.project-image{
 			position: relative;
 			margin-bottom: 0.625rem;
+			overflow: hidden;
+			max-height: 540px;
 
-			.left, .right{
-				font-family: $icons;
-				font-size: 40px;
+			.slick-prev, .slick-next{
+				font-size: 0;
 				padding: 30px;
 				position: absolute;
 				top: 50%;
 				margin-top: -50px;
 				color: rgba($white, 0.3);
 				cursor: pointer;
+				z-index: 100;
 				@include transition-property(color);
 				@include transition-duration(0.2s);
 
 				&:hover{color: $white}
 			}
 
-			.left{left: 0}
-			.right{right: 0}
+			.slick-prev{
+				left: 0;
+				content: '\edc3' !important;
+				
+			}
+			.slick-next{
+				right: 0;
+				content: '\edbb' !important;
+			}
 		}
 
 		.project-thumbs{
 
-			li{margin: 0.625rem auto}
+			li{
+				margin: 0.625rem auto;
+				cursor: pointer;
+
+				div{background: $black}
+
+				&:hover{
+					img{opacity: 0.7}
+				}
+			}
 
 			img{
 				width: 100%;
@@ -278,12 +324,16 @@ body{
 		}
 
 		.close-reveal-modal{
-			top: 10px; right: 10px;
+			top: 0; right: 0;
 			padding: 20px;
 			display: inline-block;
 			font-family: $icons;
 			font-size: 20px;
 			color: $text-grey;
+
+			&:hover{
+				color: $text-grey-dark;
+			}
 		}
 	}
 }

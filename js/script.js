@@ -8,4 +8,22 @@ $(document).ready(function() {
 
     $(document).foundation();
 
+    $(document).on('click', '.gallery article', function(){
+    	
+    	// get clicked project name
+    	var selectedProjectName = $(this).attr('data-project-name') + '.html';
+
+    	// load correct project contents in to modal
+    	$( "#project .project").load( "work/" + selectedProjectName, function() {
+   			window.setTimeout(function() {
+	    		$('.project-image').slick();
+   			}, 500)
+    	});
+	});
+
+	$(document).on('click', '.project-thumbs li', function(){
+		var selectedThumbnail = $(this).index();
+		$('.project-image').slick('slickGoTo', selectedThumbnail);
+	});
+
 });

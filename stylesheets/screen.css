@@ -3527,30 +3527,6 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 @font-face {
-  font-family: 'lasiverbold';
-  src: url("../fonts/lasiver_bold-webfont.eot");
-  src: url("../fonts/lasiver_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lasiver_bold-webfont.woff") format("woff"), url("../fonts/lasiver_bold-webfont.ttf") format("truetype"), url("../fonts/lasiver_bold-webfont.svg#lasiverbold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'lasivermedium';
-  src: url("../fonts/lasiver_medium-webfont.eot");
-  src: url("../fonts/lasiver_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lasiver_medium-webfont.woff") format("woff"), url("../fonts/lasiver_medium-webfont.ttf") format("truetype"), url("../fonts/lasiver_medium-webfont.svg#lasivermedium") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'lasiverlight';
-  src: url("../fonts/lasiver_light-webfont.eot");
-  src: url("../fonts/lasiver_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lasiver_light-webfont.woff") format("woff"), url("../fonts/lasiver_light-webfont.ttf") format("truetype"), url("../fonts/lasiver_light-webfont.svg#lasiverlight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'lasiveritalic';
-  src: url("../fonts/lasiver_regular_italic-webfont.eot");
-  src: url("../fonts/lasiver_regular_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lasiver_regular_italic-webfont.woff") format("woff"), url("../fonts/lasiver_regular_italic-webfont.ttf") format("truetype"), url("../fonts/lasiver_regular_italic-webfont.svg#lasiveritalic") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
   font-family: 'lasiverregular';
   src: url("../fonts/lasiver-webfont.eot");
   src: url("../fonts/lasiver-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lasiver-webfont.woff") format("woff"), url("../fonts/lasiver-webfont.ttf") format("truetype"), url("../fonts/lasiver-webfont.svg#lasiverregular") format("svg");
@@ -3574,7 +3550,7 @@ th.hide-for-touch {
   src: url("../fonts/icomoon.eot?#iefix-5kvl67") format("embedded-opentype"), url("../fonts/icomoon.woff?-5kvl67") format("woff"), url("../fonts/icomoon.ttf?-5kvl67") format("truetype"), url("../fonts/icomoon.svg?-5kvl67#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-/* line 93, ../sass/fonts.scss */
+/* line 49, ../sass/fonts.scss */
 .icon {
   font-family: 'icomoon';
   speak: none;
@@ -3587,31 +3563,31 @@ th.hide-for-touch {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 107, ../sass/fonts.scss */
+/* line 63, ../sass/fonts.scss */
 .icon-envelop5:before {
   content: "\ea34"; }
 
-/* line 110, ../sass/fonts.scss */
+/* line 66, ../sass/fonts.scss */
 .icon-plus-circle2:before {
   content: "\ed5e"; }
 
-/* line 113, ../sass/fonts.scss */
+/* line 69, ../sass/fonts.scss */
 .icon-cross2:before {
   content: "\ed6a"; }
 
-/* line 116, ../sass/fonts.scss */
+/* line 72, ../sass/fonts.scss */
 .icon-arrow-right4:before {
   content: "\edbb"; }
 
-/* line 119, ../sass/fonts.scss */
+/* line 75, ../sass/fonts.scss */
 .icon-arrow-left4:before {
   content: "\edc3"; }
 
-/* line 122, ../sass/fonts.scss */
+/* line 78, ../sass/fonts.scss */
 .icon-github3:before {
   content: "\eab3"; }
 
-/* line 125, ../sass/fonts.scss */
+/* line 81, ../sass/fonts.scss */
 .icon-linkedin2:before {
   content: "\eac9"; }
 
@@ -3841,38 +3817,39 @@ th.hide-for-touch {
 /**************************************************/
 /**************************************************/
 /*************************/
-/* line 51, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 div, a, h1, h2, h3, h4, p, header, section, footer {
   outline: none; }
 
 /*************************/
 /*************************/
-/* line 66, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 h1, h2, p {
   color: #FFFFFF; }
 
-/* line 67, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 h2 {
   margin-bottom: 30px; }
 
-/* line 68, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 p {
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "lasiverregular"; }
 
-/* line 70, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 h1, h2 {
   font-family: "learning_curve_proregular";
   font-size: 60px;
   text-align: center; }
 
-/* line 75, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 a, a:visited {
   color: #97a6aa; }
-  /* line 77, ../sass/screen.scss */
+  /* line 78, ../sass/screen.scss */
   a:hover, a:visited:hover {
     color: #bccbcf; }
 
-/* line 81, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 body {
   margin: 0;
   padding: 0;
@@ -3884,20 +3861,20 @@ body {
   /**************************************************/
   /**************************************************/ }
   @media only screen and (min-width: 64.0625em) {
-    /* line 81, ../sass/screen.scss */
+    /* line 82, ../sass/screen.scss */
     body {
       background-image: url(../images/background_1920.jpg); } }
   @media only screen and (min-width: 90.0625em) {
-    /* line 81, ../sass/screen.scss */
+    /* line 82, ../sass/screen.scss */
     body {
       background-image: url(../images/background_3264.jpg); } }
-  /* line 96, ../sass/screen.scss */
+  /* line 97, ../sass/screen.scss */
   body.under-construction {
     background: black url(../images/background_blurred_1920.jpg) center top no-repeat fixed;
     background-size: cover;
     position: relative;
     text-align: center; }
-    /* line 102, ../sass/screen.scss */
+    /* line 103, ../sass/screen.scss */
     body.under-construction h1 {
       font-family: "lasiverthin";
       padding: 0 40px;
@@ -3907,12 +3884,12 @@ body {
       top: 50%;
       margin-top: -30px;
       -webkit-font-smoothing: antialiased; }
-      /* line 112, ../sass/screen.scss */
+      /* line 113, ../sass/screen.scss */
       body.under-construction h1 span {
         font-family: "learning_curve_proregular";
         font-size: 60px;
         padding-right: 10px; }
-  /* line 120, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   body #blurred-image-container {
     display: block;
     padding: 0;
@@ -3922,7 +3899,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1; }
-  /* line 131, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   body .img-src {
     position: absolute;
     background: black url(../images/background_blurred_1920.jpg) top center;
@@ -3932,7 +3909,7 @@ body {
     left: 0;
     right: 0;
     opacity: 0; }
-  /* line 150, ../sass/screen.scss */
+  /* line 151, ../sass/screen.scss */
   body .container {
     z-index: 1;
     /**************************************************/
@@ -3943,49 +3920,49 @@ body {
     /**************************************************/
     /**************************************************/
     /**************************************************/ }
-    /* line 157, ../sass/screen.scss */
+    /* line 158, ../sass/screen.scss */
     body .container .header {
       padding: 140px 0 120px 0;
       text-align: center; }
       @media only screen and (min-width: 40.0625em) {
-        /* line 157, ../sass/screen.scss */
+        /* line 158, ../sass/screen.scss */
         body .container .header {
           padding: 200px 0 150px 0; } }
-      /* line 162, ../sass/screen.scss */
+      /* line 163, ../sass/screen.scss */
       body .container .header h1 {
         padding: 0; }
-        /* line 164, ../sass/screen.scss */
+        /* line 165, ../sass/screen.scss */
         body .container .header h1 .tagline {
           font-size: 0; }
-      /* line 167, ../sass/screen.scss */
+      /* line 168, ../sass/screen.scss */
       body .container .header img {
         margin-top: -40px;
         width: 564px; }
-    /* line 173, ../sass/screen.scss */
+    /* line 174, ../sass/screen.scss */
     body .container section:not(#home) {
       padding: 30px 0; }
       @media only screen and (min-width: 40.0625em) {
-        /* line 173, ../sass/screen.scss */
+        /* line 174, ../sass/screen.scss */
         body .container section:not(#home) {
           padding: 50px 0; } }
-    /* line 182, ../sass/screen.scss */
+    /* line 183, ../sass/screen.scss */
     body .container .gallery {
       padding: 0.625em;
       background: rgba(255, 255, 255, 0.2); }
-      /* line 186, ../sass/screen.scss */
+      /* line 187, ../sass/screen.scss */
       body .container .gallery article {
         padding: 0.3125em;
         float: left !important; }
         @media only screen and (min-width: 40.0625em) {
-          /* line 186, ../sass/screen.scss */
+          /* line 187, ../sass/screen.scss */
           body .container .gallery article {
             padding: 0.625em; } }
-        /* line 191, ../sass/screen.scss */
+        /* line 192, ../sass/screen.scss */
         body .container .gallery article div {
           position: relative;
           background: #000000;
           overflow: hidden; }
-          /* line 196, ../sass/screen.scss */
+          /* line 197, ../sass/screen.scss */
           body .container .gallery article div:before {
             position: absolute;
             bottom: 40%;
@@ -4010,7 +3987,7 @@ body {
             -o-transition-timing-function: ease-out;
             -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out; }
-        /* line 214, ../sass/screen.scss */
+        /* line 215, ../sass/screen.scss */
         body .container .gallery article img {
           -moz-transition-property: opacity;
           -o-transition-property: opacity;
@@ -4024,23 +4001,23 @@ body {
           -o-transition-timing-function: ease-out;
           -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out; }
-        /* line 220, ../sass/screen.scss */
+        /* line 221, ../sass/screen.scss */
         body .container .gallery article:hover {
           cursor: pointer; }
-          /* line 223, ../sass/screen.scss */
+          /* line 224, ../sass/screen.scss */
           body .container .gallery article:hover img {
             opacity: 0.6; }
-          /* line 227, ../sass/screen.scss */
+          /* line 228, ../sass/screen.scss */
           body .container .gallery article:hover div:before {
             bottom: 50%;
             opacity: 1; }
-    /* line 239, ../sass/screen.scss */
+    /* line 240, ../sass/screen.scss */
     body .container section.about {
-      text-align: center;
-      font-family: "lasiverregular";
-      padding: auto 1.25em; }
+      text-align: center; }
       /* line 244, ../sass/screen.scss */
       body .container section.about .columned-article {
+        padding-left: 1.25em;
+        padding-right: 1.25em;
         -moz-column-count: 1;
         -webkit-column-count: 1;
         column-count: 1;
@@ -4057,35 +4034,35 @@ body {
             -moz-column-count: 3;
             -webkit-column-count: 3;
             column-count: 3; } }
-    /* line 257, ../sass/screen.scss */
+    /* line 259, ../sass/screen.scss */
     body .container footer.contact {
       text-align: center;
       padding-bottom: 100px; }
       @media only screen and (min-width: 40.0625em) {
-        /* line 257, ../sass/screen.scss */
+        /* line 259, ../sass/screen.scss */
         body .container footer.contact {
           padding-bottom: 200px; } }
-      /* line 262, ../sass/screen.scss */
+      /* line 264, ../sass/screen.scss */
       body .container footer.contact ul {
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         display: inline-block;
         padding-top: 50px;
         margin-left: 0; }
-        /* line 268, ../sass/screen.scss */
+        /* line 270, ../sass/screen.scss */
         body .container footer.contact ul li {
           display: inline-block;
           padding: 0 5px; }
           @media only screen and (min-width: 40.0625em) {
-            /* line 268, ../sass/screen.scss */
+            /* line 270, ../sass/screen.scss */
             body .container footer.contact ul li {
               padding: 0 10px; } }
-          /* line 273, ../sass/screen.scss */
+          /* line 275, ../sass/screen.scss */
           body .container footer.contact ul li:first-child {
             padding-left: 0; }
-          /* line 274, ../sass/screen.scss */
+          /* line 276, ../sass/screen.scss */
           body .container footer.contact ul li:last-child {
             padding-right: 0; }
-          /* line 276, ../sass/screen.scss */
+          /* line 278, ../sass/screen.scss */
           body .container footer.contact ul li a {
             -webkit-font-smoothing: antialiased;
             font-family: "icomoon";
@@ -4113,54 +4090,54 @@ body {
             -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out; }
             @media only screen and (min-width: 40.0625em) {
-              /* line 276, ../sass/screen.scss */
+              /* line 278, ../sass/screen.scss */
               body .container footer.contact ul li a {
                 font-size: 30px;
                 width: 80px;
                 height: 80px;
                 line-height: 76px; } }
-            /* line 299, ../sass/screen.scss */
+            /* line 301, ../sass/screen.scss */
             body .container footer.contact ul li a:hover {
               background: rgba(255, 255, 255, 0.2); }
-            /* line 303, ../sass/screen.scss */
+            /* line 305, ../sass/screen.scss */
             body .container footer.contact ul li a.version {
               font-family: "lasiverregular";
               font-size: 16px; }
               @media only screen and (min-width: 40.0625em) {
-                /* line 303, ../sass/screen.scss */
+                /* line 305, ../sass/screen.scss */
                 body .container footer.contact ul li a.version {
                   font-size: 22px; } }
-  /* line 321, ../sass/screen.scss */
+  /* line 323, ../sass/screen.scss */
   body .reveal-modal {
     border-radius: 0 !important;
     border: none;
     padding: 1.250rem 0.625rem 0.625rem 0.625rem !important;
     min-height: 580px; }
-    /* line 327, ../sass/screen.scss */
+    /* line 329, ../sass/screen.scss */
     body .reveal-modal:focus {
       outline: none; }
-    /* line 329, ../sass/screen.scss */
+    /* line 331, ../sass/screen.scss */
     body .reveal-modal h3, body .reveal-modal p {
       color: #36363a; }
-    /* line 330, ../sass/screen.scss */
+    /* line 332, ../sass/screen.scss */
     body .reveal-modal h3 {
       font-family: "learning_curve_proregular";
       font-size: 60px;
       line-height: 50px; }
-    /* line 336, ../sass/screen.scss */
+    /* line 338, ../sass/screen.scss */
     body .reveal-modal .project-image {
       position: relative;
       margin-bottom: 0;
       overflow: hidden;
       max-height: 560px; }
       @media only screen and (min-width: 40.0625em) {
-        /* line 336, ../sass/screen.scss */
+        /* line 338, ../sass/screen.scss */
         body .reveal-modal .project-image {
           margin-bottom: 0.625em; } }
-      /* line 344, ../sass/screen.scss */
+      /* line 346, ../sass/screen.scss */
       body .reveal-modal .project-image:hover .slick-prev, body .reveal-modal .project-image:hover .slick-next {
         opacity: 0.5; }
-      /* line 349, ../sass/screen.scss */
+      /* line 351, ../sass/screen.scss */
       body .reveal-modal .project-image .slick-prev, body .reveal-modal .project-image .slick-next {
         display: none !important;
         font-size: 0;
@@ -4183,54 +4160,54 @@ body {
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s; }
         @media only screen and (min-width: 40.0625em) {
-          /* line 349, ../sass/screen.scss */
+          /* line 351, ../sass/screen.scss */
           body .reveal-modal .project-image .slick-prev, body .reveal-modal .project-image .slick-next {
             display: inline-block !important; } }
-        /* line 367, ../sass/screen.scss */
+        /* line 369, ../sass/screen.scss */
         body .reveal-modal .project-image .slick-prev:hover, body .reveal-modal .project-image .slick-next:hover {
           opacity: 1.0; }
-      /* line 372, ../sass/screen.scss */
+      /* line 374, ../sass/screen.scss */
       body .reveal-modal .project-image .slick-prev {
         left: 20px;
         content: '\edc3' !important; }
-      /* line 376, ../sass/screen.scss */
+      /* line 378, ../sass/screen.scss */
       body .reveal-modal .project-image .slick-next {
         right: 20px;
         content: '\edbb' !important; }
-    /* line 382, ../sass/screen.scss */
+    /* line 384, ../sass/screen.scss */
     body .reveal-modal .project-thumbs {
       padding: 0.3125em; }
       @media only screen and (min-width: 40.0625em) {
-        /* line 382, ../sass/screen.scss */
+        /* line 384, ../sass/screen.scss */
         body .reveal-modal .project-thumbs {
           padding: 0; } }
-      /* line 386, ../sass/screen.scss */
+      /* line 388, ../sass/screen.scss */
       body .reveal-modal .project-thumbs li {
         padding: 0.3125em;
         cursor: pointer;
         float: left !important; }
         @media only screen and (min-width: 40.0625em) {
-          /* line 386, ../sass/screen.scss */
+          /* line 388, ../sass/screen.scss */
           body .reveal-modal .project-thumbs li {
             padding: 0.625em; } }
-        /* line 392, ../sass/screen.scss */
+        /* line 394, ../sass/screen.scss */
         body .reveal-modal .project-thumbs li div {
           background: #000000; }
-        /* line 395, ../sass/screen.scss */
+        /* line 397, ../sass/screen.scss */
         body .reveal-modal .project-thumbs li:hover img {
           opacity: 0.7; }
-      /* line 398, ../sass/screen.scss */
+      /* line 400, ../sass/screen.scss */
       body .reveal-modal .project-thumbs img {
         width: 100%; }
-    /* line 401, ../sass/screen.scss */
+    /* line 403, ../sass/screen.scss */
     body .reveal-modal .info {
       padding-top: 20px;
       padding-bottom: 20px; }
       @media only screen and (min-width: 40.0625em) {
-        /* line 401, ../sass/screen.scss */
+        /* line 403, ../sass/screen.scss */
         body .reveal-modal .info {
           padding-top: 0; } }
-    /* line 407, ../sass/screen.scss */
+    /* line 409, ../sass/screen.scss */
     body .reveal-modal .close-reveal-modal {
       top: 0;
       right: 0;
@@ -4241,7 +4218,7 @@ body {
       color: #bccbcf;
       border-radius: 200px;
       background: #FFFFFF; }
-      /* line 417, ../sass/screen.scss */
+      /* line 419, ../sass/screen.scss */
       body .reveal-modal .close-reveal-modal:hover {
         color: #97a6aa; }
 

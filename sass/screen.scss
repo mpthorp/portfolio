@@ -28,9 +28,7 @@
 // FONTS
 
 $font-thin					: 'lasiverthin';
-$font-light					: 'lasiverlight';
 $font-regular				: 'lasiverregular';
-$font-regular-italic		: 'lasiveritalic';
 $font-script				: 'learning_curve_proregular';
 
 $icons						: 'icomoon';
@@ -65,7 +63,10 @@ $gutter-quarter				: 0.3125em;
 
 h1, h2, p{color: $white}
 h2{margin-bottom: 30px}
-p{font-size: 14px}
+p{
+	font-size: 14px;
+	font-family: $font-regular;
+}
 
 h1, h2{
 	font-family: $font-script;
@@ -238,10 +239,11 @@ body{
 
 		section.about{
 			text-align: center;
-			font-family: $font-regular;
-			padding: auto $gutter-full;
+			
 
 			.columned-article{
+				padding-left: $gutter-full;
+				padding-right: $gutter-full;
 				@include column-count(1);
 				text-align: left;
 

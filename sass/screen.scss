@@ -72,13 +72,22 @@ h1, h2{
 	font-size: 60px;
 	text-align: center;
 }
+a, a:visited{
+	color: $text-grey-dark;
+	&:hover{color: $text-grey;}
+}
 
 
 body{
 	margin: 0;
 	padding: 0;
-	background: black url(../images/background.jpg) center top no-repeat fixed;
+	background: black center top no-repeat fixed;
+	background-image: url(../images/background_1024.jpg);
 	background-size: cover;
+	@media #{$large-up}{background-image: url(../images/background_1920.jpg);}
+	@media #{$xlarge-up}{background-image: url(../images/background_3264.jpg);}
+
+
 
 	/**************************************************/
 	// UNDER CONSTRUCTION
@@ -250,7 +259,6 @@ body{
 			padding-bottom: 100px;
 			@media #{$medium-up}{padding-bottom: 200px;}
 
-
 			ul{
 				border-top: 1px solid rgba($white, 0.3);
 				display: inline-block;
@@ -269,8 +277,9 @@ body{
 						-webkit-font-smoothing: antialiased;
 						font-family: $icons;
 						width: 60px; height: 60px;
-						line-height: 60px;
+						line-height: 55px;
 						display: inline-block;
+						vertical-align: top;
 						background-color: rgba($white, 0.1);
 						border: 2px solid rgba($white, 0.5);
 						text-align: center;
@@ -284,7 +293,7 @@ body{
 						@media #{$medium-up}{
 							font-size: 30px;
 							width: 80px; height: 80px;
-							line-height: 80px;
+							line-height: 76px;
 						}
 
 						&:hover{
@@ -293,15 +302,10 @@ body{
 
 						&.version{
 							font-family: $font-regular;
-							line-height: 60px;
-							@media #{$medium-up}{line-height: 80px;}
+							font-size: 16px;
 
-							span{
-								display: inline-block;
-								vertical-align: top;
-								margin-top: -2px;
-								font-size: 16px;
-								@media #{$medium-up}{font-size: 22px;}
+							@media #{$medium-up}{
+								font-size: 22px;
 							}
 						}
 					}
@@ -327,10 +331,6 @@ body{
 			font-family: $font-script;
 			font-size: 60px;
 			line-height: 50px;
-		}
-		a{
-			color: $text-grey-dark;
-			&:hover{color: $text-grey;}
 		}
 
 		.project-image{
@@ -395,10 +395,7 @@ body{
 					img{opacity: 0.7}
 				}
 			}
-
-			img{
-				width: 100%;
-			}
+			img{width: 100%}
 		}
 
 		.info{

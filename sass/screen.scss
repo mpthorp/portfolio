@@ -83,10 +83,10 @@ body{
 	margin: 0;
 	padding: 0;
 	background: black center top no-repeat fixed;
-	background-image: url(../images/background_1024.jpg);
 	background-size: cover;
-	@media #{$large-up}{background-image: url(../images/background_1920.jpg);}
-	@media #{$xlarge-up}{background-image: url(../images/background_3264.jpg);}
+	background-image: url(../images/background_1280.jpg);
+	@media #{$medium-up}{background-image: url(../images/background_1920.jpg);}
+	@media #{$xxlarge-up}{background-image: url(../images/background_3264.jpg);}
 
 
 
@@ -95,10 +95,13 @@ body{
 	/**************************************************/
 
 	&.under-construction{
-		background: black url(../images/background_blurred_1920.jpg) center top no-repeat fixed;
-		background-size: cover;
 		position: relative;
 		text-align: center;
+		background: black center top no-repeat fixed;
+		background-size: cover;
+		background-image: url(../images/background_blurred_640.jpg);
+		@media #{$medium-up}{background-image: url(../images/background_blurred_1280.jpg);}
+		@media #{$xlarge-up}{background-image: url(../images/background_blurred_1920.jpg);}
 
 		h1{
 			font-family: $font-thin;
@@ -131,13 +134,16 @@ body{
 
 	.img-src { 
 		position: absolute;
-		background: black url(../images/background_blurred_1920.jpg) top center;
-		background-size: cover;
 		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
-		opacity:0;
+		opacity: 0;
+		background: black center top no-repeat fixed;
+		background-size: cover;
+		background-image: url(../images/background_blurred_640.jpg);
+		@media #{$medium-up}{background-image: url(../images/background_blurred_1280.jpg);}
+		@media #{$xlarge-up}{background-image: url(../images/background_blurred_1920.jpg);}
 	}
 
 	// .img-src.blurred-image {

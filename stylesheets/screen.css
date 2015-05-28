@@ -3738,7 +3738,7 @@ th.hide-for-touch {
 /* line 77, ../sass/slick-theme.scss */
 .slick-prev:before, .slick-next:before {
   font-family: 'icomoon';
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
@@ -3845,16 +3845,17 @@ th.hide-for-touch {
 body {
   margin: 0;
   padding: 0;
-  background: black url(../images/background_1920.jpg) center top no-repeat fixed;
+  background: black url(../images/background.jpg) center top no-repeat fixed;
   background-size: cover;
   /**************************************************/
   /**************************************************/ }
   /* line 60, ../sass/screen.scss */
   body.under-construction {
     background: black url(../images/background_blurred_1920.jpg) center top no-repeat fixed;
+    background-size: cover;
     position: relative;
     text-align: center; }
-    /* line 65, ../sass/screen.scss */
+    /* line 66, ../sass/screen.scss */
     body.under-construction h1 {
       font-family: "lasiverthin";
       padding: 0 40px;
@@ -3862,13 +3863,14 @@ body {
       position: absolute;
       font-size: 40px;
       top: 50%;
-      margin-top: -30px; }
-      /* line 74, ../sass/screen.scss */
+      margin-top: -30px;
+      -webkit-font-smoothing: antialiased; }
+      /* line 76, ../sass/screen.scss */
       body.under-construction h1 span {
         font-family: "learning_curve_proregular";
         font-size: 60px;
         padding-right: 10px; }
-  /* line 82, ../sass/screen.scss */
+  /* line 84, ../sass/screen.scss */
   body #blurred-image-container {
     display: block;
     padding: 0;
@@ -3878,7 +3880,7 @@ body {
     left: 0;
     right: 0;
     z-index: -1; }
-  /* line 93, ../sass/screen.scss */
+  /* line 95, ../sass/screen.scss */
   body .img-src {
     position: absolute;
     background: black url(../images/background_blurred_1920.jpg) top center;
@@ -3888,21 +3890,21 @@ body {
     left: 0;
     right: 0;
     opacity: 0; }
-  /* line 112, ../sass/screen.scss */
+  /* line 114, ../sass/screen.scss */
   body h1, body h2, body p {
     color: #FFFFFF; }
-  /* line 113, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   body h2 {
     margin-bottom: 30px; }
-  /* line 114, ../sass/screen.scss */
+  /* line 116, ../sass/screen.scss */
   body p {
     font-size: 14px; }
-  /* line 116, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   body h1, body h2 {
     font-family: "learning_curve_proregular";
     font-size: 60px;
     text-align: center; }
-  /* line 122, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   body .container {
     z-index: 1;
     /**************************************************/
@@ -3911,36 +3913,36 @@ body {
     /**************************************************/
     /**************************************************/
     /**************************************************/ }
-    /* line 125, ../sass/screen.scss */
+    /* line 127, ../sass/screen.scss */
     body .container .header {
       padding: 200px 0 150px 0;
       text-align: center; }
-      /* line 129, ../sass/screen.scss */
+      /* line 131, ../sass/screen.scss */
       body .container .header h1 {
         padding: 0; }
-        /* line 131, ../sass/screen.scss */
+        /* line 133, ../sass/screen.scss */
         body .container .header h1 .tagline {
           font-size: 0; }
-      /* line 134, ../sass/screen.scss */
+      /* line 136, ../sass/screen.scss */
       body .container .header img {
         margin-top: -40px;
         width: 564px; }
-    /* line 140, ../sass/screen.scss */
+    /* line 142, ../sass/screen.scss */
     body .container section:not(#home) {
       padding: 50px 0; }
-    /* line 148, ../sass/screen.scss */
+    /* line 150, ../sass/screen.scss */
     body .container .gallery {
       padding: 0.625em;
       background: rgba(255, 255, 255, 0.2); }
-      /* line 152, ../sass/screen.scss */
+      /* line 154, ../sass/screen.scss */
       body .container .gallery article {
         padding: 0.625em; }
-        /* line 155, ../sass/screen.scss */
+        /* line 157, ../sass/screen.scss */
         body .container .gallery article div {
           position: relative;
           background: #000000;
           overflow: hidden; }
-          /* line 160, ../sass/screen.scss */
+          /* line 162, ../sass/screen.scss */
           body .container .gallery article div:before {
             position: absolute;
             bottom: 40%;
@@ -3965,7 +3967,7 @@ body {
             -o-transition-timing-function: ease-out;
             -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out; }
-        /* line 178, ../sass/screen.scss */
+        /* line 180, ../sass/screen.scss */
         body .container .gallery article img {
           -moz-transition-property: opacity;
           -o-transition-property: opacity;
@@ -3979,42 +3981,42 @@ body {
           -o-transition-timing-function: ease-out;
           -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out; }
-        /* line 184, ../sass/screen.scss */
+        /* line 186, ../sass/screen.scss */
         body .container .gallery article:hover {
           cursor: pointer; }
-          /* line 187, ../sass/screen.scss */
+          /* line 189, ../sass/screen.scss */
           body .container .gallery article:hover img {
             opacity: 0.6; }
-          /* line 191, ../sass/screen.scss */
+          /* line 193, ../sass/screen.scss */
           body .container .gallery article:hover div:before {
             bottom: 50%;
             opacity: 1; }
-    /* line 203, ../sass/screen.scss */
+    /* line 205, ../sass/screen.scss */
     body .container section.about {
       text-align: center;
       font-family: "lasiverregular"; }
-      /* line 207, ../sass/screen.scss */
+      /* line 209, ../sass/screen.scss */
       body .container section.about .columned-article {
         -moz-column-count: 3;
         -webkit-column-count: 3;
         column-count: 3;
         text-align: left; }
-    /* line 217, ../sass/screen.scss */
+    /* line 219, ../sass/screen.scss */
     body .container footer.contact {
       text-align: center;
       padding-bottom: 200px; }
-      /* line 221, ../sass/screen.scss */
+      /* line 223, ../sass/screen.scss */
       body .container footer.contact ul {
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         display: inline-block;
         padding-top: 50px; }
-        /* line 226, ../sass/screen.scss */
+        /* line 228, ../sass/screen.scss */
         body .container footer.contact ul li {
           display: inline-block; }
-          /* line 229, ../sass/screen.scss */
+          /* line 231, ../sass/screen.scss */
           body .container footer.contact ul li:nth-child(2n) {
             padding: 0 20px; }
-          /* line 233, ../sass/screen.scss */
+          /* line 235, ../sass/screen.scss */
           body .container footer.contact ul li a {
             -webkit-font-smoothing: antialiased;
             font-family: "icomoon";
@@ -4040,74 +4042,85 @@ body {
             -o-transition-timing-function: ease-out;
             -webkit-transition-timing-function: ease-out;
             transition-timing-function: ease-out; }
-            /* line 249, ../sass/screen.scss */
+            /* line 251, ../sass/screen.scss */
             body .container footer.contact ul li a:hover {
               background: rgba(255, 255, 255, 0.2); }
-  /* line 262, ../sass/screen.scss */
+  /* line 264, ../sass/screen.scss */
   body .reveal-modal {
     border-radius: 0 !important;
     border: none;
-    padding: 1.250rem 0.625rem 0.625rem 0.625rem !important; }
-    /* line 267, ../sass/screen.scss */
+    padding: 1.250rem 0.625rem 0.625rem 0.625rem !important;
+    min-height: 580px; }
+    /* line 270, ../sass/screen.scss */
     body .reveal-modal:focus {
       outline: none; }
-    /* line 269, ../sass/screen.scss */
+    /* line 272, ../sass/screen.scss */
     body .reveal-modal h3, body .reveal-modal p {
       color: #36363a; }
-    /* line 270, ../sass/screen.scss */
+    /* line 273, ../sass/screen.scss */
     body .reveal-modal h3 {
       font-family: "learning_curve_proregular";
-      font-size: 50px;
-      line-height: 40px; }
-    /* line 276, ../sass/screen.scss */
+      font-size: 60px;
+      line-height: 50px; }
+    /* line 278, ../sass/screen.scss */
+    body .reveal-modal a {
+      color: #97a6aa; }
+      /* line 280, ../sass/screen.scss */
+      body .reveal-modal a:hover {
+        color: #bccbcf; }
+    /* line 283, ../sass/screen.scss */
     body .reveal-modal .project-image {
       position: relative;
       margin-bottom: 0.625rem;
       overflow: hidden;
-      max-height: 540px; }
-      /* line 282, ../sass/screen.scss */
+      max-height: 560px; }
+      /* line 289, ../sass/screen.scss */
       body .reveal-modal .project-image .slick-prev, body .reveal-modal .project-image .slick-next {
         font-size: 0;
-        padding: 30px;
+        padding: 20px;
         position: absolute;
         top: 50%;
-        margin-top: -50px;
-        color: rgba(255, 255, 255, 0.3);
+        margin-top: -30px;
+        color: #FFFFFF;
         cursor: pointer;
         z-index: 100;
-        -moz-transition-property: color;
-        -o-transition-property: color;
-        -webkit-transition-property: color;
-        transition-property: color;
+        background: rgba(0, 0, 0, 0.2);
+        opacity: 0.5;
+        border-radius: 200px;
+        -moz-transition-property: opacity;
+        -o-transition-property: opacity;
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
         -moz-transition-duration: 0.2s;
         -o-transition-duration: 0.2s;
         -webkit-transition-duration: 0.2s;
         transition-duration: 0.2s; }
-        /* line 294, ../sass/screen.scss */
+        /* line 304, ../sass/screen.scss */
         body .reveal-modal .project-image .slick-prev:hover, body .reveal-modal .project-image .slick-next:hover {
-          color: #FFFFFF; }
-      /* line 297, ../sass/screen.scss */
+          opacity: 1.0; }
+      /* line 309, ../sass/screen.scss */
       body .reveal-modal .project-image .slick-prev {
-        left: 0;
+        left: 20px;
         content: '\edc3' !important; }
-      /* line 302, ../sass/screen.scss */
+      /* line 313, ../sass/screen.scss */
       body .reveal-modal .project-image .slick-next {
-        right: 0;
+        right: 20px;
         content: '\edbb' !important; }
-    /* line 310, ../sass/screen.scss */
-    body .reveal-modal .project-thumbs li {
-      margin: 0.625rem auto;
-      cursor: pointer; }
-      /* line 314, ../sass/screen.scss */
-      body .reveal-modal .project-thumbs li div {
-        background: #000000; }
-      /* line 317, ../sass/screen.scss */
-      body .reveal-modal .project-thumbs li:hover img {
-        opacity: 0.7; }
     /* line 321, ../sass/screen.scss */
+    body .reveal-modal .project-thumbs li, body .reveal-modal .project-thumbs li:last-child {
+      margin: 0.625rem auto;
+      cursor: pointer;
+      float: left; }
+      /* line 326, ../sass/screen.scss */
+      body .reveal-modal .project-thumbs li div, body .reveal-modal .project-thumbs li:last-child div {
+        background: #000000; }
+      /* line 329, ../sass/screen.scss */
+      body .reveal-modal .project-thumbs li:hover img, body .reveal-modal .project-thumbs li:last-child:hover img {
+        opacity: 0.7; }
+    /* line 333, ../sass/screen.scss */
     body .reveal-modal .project-thumbs img {
       width: 100%; }
-    /* line 326, ../sass/screen.scss */
+    /* line 338, ../sass/screen.scss */
     body .reveal-modal .close-reveal-modal {
       top: 0;
       right: 0;
@@ -4116,16 +4129,8 @@ body {
       font-family: "icomoon";
       font-size: 20px;
       color: #bccbcf; }
-      /* line 334, ../sass/screen.scss */
+      /* line 346, ../sass/screen.scss */
       body .reveal-modal .close-reveal-modal:hover {
         color: #97a6aa; }
 
 /*************************/
-/**
- * Parallax Scrolling Tutorial
- * For NetTuts+
- *  
- * Author: Mohiuddin Parekh
- *	http://www.mohi.me
- * 	@mohiuddinparekh   
- */

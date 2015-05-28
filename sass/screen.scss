@@ -54,11 +54,12 @@ $gutter-half				: 0.625em;
 body{
 	margin: 0;
 	padding: 0;
-	background: black url(../images/background_1920.jpg) center top no-repeat fixed;
+	background: black url(../images/background.jpg) center top no-repeat fixed;
 	background-size: cover;
 
 	&.under-construction{
 		background: black url(../images/background_blurred_1920.jpg) center top no-repeat fixed;
+		background-size: cover;
 		position: relative;
 		text-align: center;
 
@@ -70,6 +71,7 @@ body{
 			font-size: 40px;
 			top: 50%;
 			margin-top: -30px;
+			-webkit-font-smoothing: antialiased;
 
 			span{
 				font-family: $font-script;
@@ -263,53 +265,63 @@ body{
 		border-radius: 0 !important;
 		border: none;
 		padding: 1.250rem 0.625rem 0.625rem 0.625rem !important;
+		min-height: 580px;
 
 		&:focus{outline: none}
 
 		h3, p{color: $text-black}
 		h3{
 			font-family: $font-script;
-			font-size: 50px;
-			line-height: 40px;
+			font-size: 60px;
+			line-height: 50px;
+		}
+		a{
+			color: $text-grey-dark;
+			&:hover{color: $text-grey;}
 		}
 
 		.project-image{
 			position: relative;
 			margin-bottom: 0.625rem;
 			overflow: hidden;
-			max-height: 540px;
+			max-height: 560px;
 
 			.slick-prev, .slick-next{
 				font-size: 0;
-				padding: 30px;
+				padding: 20px;
 				position: absolute;
 				top: 50%;
-				margin-top: -50px;
-				color: rgba($white, 0.3);
+				margin-top: -30px;
+				color: $white;
 				cursor: pointer;
 				z-index: 100;
-				@include transition-property(color);
+				background: rgba($black,0.2);
+				opacity: 0.5;
+				border-radius: 200px;
+				@include transition-property(opacity);
 				@include transition-duration(0.2s);
 
-				&:hover{color: $white}
+				&:hover{
+					opacity: 1.0;
+				}
 			}
 
 			.slick-prev{
-				left: 0;
-				content: '\edc3' !important;
-				
+				left: 20px;
+				content: '\edc3' !important;				
 			}
 			.slick-next{
-				right: 0;
+				right: 20px;
 				content: '\edbb' !important;
 			}
 		}
 
 		.project-thumbs{
 
-			li{
+			li, li:last-child{
 				margin: 0.625rem auto;
 				cursor: pointer;
+				float: left;
 
 				div{background: $black}
 
@@ -470,14 +482,6 @@ body{
 	
 // }
 
-/**
- * Parallax Scrolling Tutorial
- * For NetTuts+
- *  
- * Author: Mohiuddin Parekh
- *	http://www.mohi.me
- * 	@mohiuddinparekh   
- */
 
 
 

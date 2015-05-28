@@ -34,7 +34,7 @@
 /* line 77, ../sass/slick-theme.scss */
 .slick-prev:before, .slick-next:before {
   font-family: 'icomoon';
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;

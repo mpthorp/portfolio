@@ -1,13 +1,19 @@
 $(document).ready(function() {
 
-    $(window).scroll(function(e) {
+    //INITIATE FOUNDATION
+
+     $(document).foundation();
+
+    //BLURRED BACKGOUND
+
+    $(window).scroll(function() {
         var s = $(window).scrollTop(),
-        	handicap = $(window).innerHeight();
+        	handicap = $(window).innerHeight(),
             opacityVal = (s / (200 * (handicap/s)));
         $('.blurred-background').css('opacity', opacityVal);
     });
 
-    $(document).foundation();
+    //REVEAL MODAL
 
     $(document).on('click', '.gallery article', function(){
     	// get clicked project name
@@ -17,7 +23,7 @@ $(document).ready(function() {
     	$( "#project .project").load( "work/" + selectedProjectName, function() {
    			window.setTimeout(function() {
 	    		$('.project-image').slick();
-   			}, 500)
+   			}, 500);
     	});
 
         if(window.innerWidth <= 640){
@@ -46,5 +52,4 @@ $(document).ready(function() {
 		var selectedThumbnail = $(this).index();
 		$('.project-image').slick('slickGoTo', selectedThumbnail);
 	});
-
 });

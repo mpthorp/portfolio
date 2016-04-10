@@ -25,10 +25,6 @@ $(document).ready(function() {
 	    		$('.project-image').slick();
    			}, 500);
     	});
-
-        if(window.innerWidth <= 640){
-            
-        }
 	});
 
     var scrollPosition;
@@ -39,6 +35,19 @@ $(document).ready(function() {
             scrollPosition = $(window).scrollTop();
             $(window).scrollTop(0);
         }
+
+        // var $images = $('.project img');
+        // var loaded_images_count = 0;
+
+        // $images.load(function(){
+        //     loaded_images_count++;
+        //      $('.loader').show();
+
+        //     if (loaded_images_count === $images.length) {
+        //         $('.loader').hide();
+        //         $('.project').fadeIn('slow');
+        //     }
+        // });
     });
 
     $(document).on('close.fndtn.reveal', '[data-reveal]', function () {

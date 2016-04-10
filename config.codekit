@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19115",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -174,6 +174,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/work\/buckitdream\/visual1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72091,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual1.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/buckitdream\/visual2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 366617,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual2.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/buckitdream\/visual3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258359,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual3.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/buckitdream\/visual4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 352275,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual4.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/buckitdream\/visual5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312140,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual5.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/buckitdream\/visual6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 309940,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual6.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/buckitdream\/visual7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324759,
+		"inputAbbreviatedPath": "\/images\/work\/buckitdream\/visual7.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/buckitdream\/visual7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/work\/clubjudge\/visual1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -302,6 +379,39 @@
 		"initialSize": 208932,
 		"inputAbbreviatedPath": "\/images\/work\/designwerk\/visual4.jpg",
 		"outputAbbreviatedPath": "\/images\/work\/designwerk\/visual4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/edgelabs\/visual1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 409675,
+		"inputAbbreviatedPath": "\/images\/work\/edgelabs\/visual1.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/edgelabs\/visual1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/edgelabs\/visual2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 319332,
+		"inputAbbreviatedPath": "\/images\/work\/edgelabs\/visual2.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/edgelabs\/visual2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/edgelabs\/visual3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 312798,
+		"inputAbbreviatedPath": "\/images\/work\/edgelabs\/visual3.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/edgelabs\/visual3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3562,6 +3672,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/work\/buckitdream.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/work\/buckitdream.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/work\/clubjudge.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3585,6 +3704,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/work\/designwerk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/work\/edgelabs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/work\/edgelabs.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3737,8 +3865,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -3747,6 +3883,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {

@@ -1025,7 +1025,18 @@ a {
   align-items: stretch;
 }
 
+.paragraphlink {
+  border-bottom: 1px solid #4f4f55;
+  color: #4f4f55;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1440px) {
+  a {
+    color: #4f4f55;
+    text-decoration: none;
+  }
+
   .headerclient {
     height: 480px;
   }

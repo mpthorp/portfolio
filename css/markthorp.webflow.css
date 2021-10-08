@@ -1351,9 +1351,8 @@ a {
   }
 
   .locationtext {
-    margin-left: 8px;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 28px;
+    line-height: 28px;
   }
 
   .container {
@@ -1535,8 +1534,8 @@ a {
   }
 
   .deviceanimation {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -1568,8 +1567,8 @@ a {
   }
 
   .locationtext {
-    margin-left: 4px;
-    font-size: 16px;
+    margin-left: 8px;
+    font-size: 20px;
     line-height: 24px;
   }
 
@@ -1816,8 +1815,8 @@ a {
   }
 
   .deviceanimation {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 }
 

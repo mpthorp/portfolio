@@ -1031,6 +1031,11 @@ a {
   text-decoration: none;
 }
 
+.deviceanimation {
+  width: 32px;
+  height: 32px;
+}
+
 @media screen and (min-width: 1440px) {
   a {
     color: #4f4f55;
@@ -1528,6 +1533,11 @@ a {
     width: 64px;
     padding-bottom: 64px;
   }
+
+  .deviceanimation {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1803,6 +1813,11 @@ a {
   .quotations {
     width: 48px;
     padding-bottom: 48px;
+  }
+
+  .deviceanimation {
+    width: 20px;
+    height: 20px;
   }
 }
 

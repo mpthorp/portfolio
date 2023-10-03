@@ -407,6 +407,7 @@ a {
   line-height: 26px;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -1650,6 +1651,11 @@ a {
     grid-row-gap: 48px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .projectActions {
+    justify-content: stretch;
+    width: 100%;
   }
 
   .button {

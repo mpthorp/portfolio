@@ -400,8 +400,8 @@ a {
   padding: 16px 32px;
   border: 2px solid #4f4f55;
   background-color: #fff;
-  -webkit-transition: color 800ms ease, background-color 800ms ease;
-  transition: color 800ms ease, background-color 800ms ease;
+  -webkit-transition: color 300ms ease, background-color 300ms ease;
+  transition: color 300ms ease, background-color 300ms ease;
   color: #4f4f55;
   font-size: 18px;
   line-height: 26px;

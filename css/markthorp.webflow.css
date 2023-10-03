@@ -391,6 +391,11 @@ a {
   padding-bottom: 96px;
 }
 
+.projectActions {
+  display: flex;
+  column-gap: 16px;
+}
+
 .button {
   padding: 16px 32px;
   border: 2px solid #4f4f55;

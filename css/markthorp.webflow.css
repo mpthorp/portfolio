@@ -522,8 +522,8 @@ a {
 }
 
 .header-image.getsetup {
-  width: auto;
-  height: 480px;
+  width: 735px;
+  height: auto;
   top: 0;
 }
 
@@ -2205,8 +2205,8 @@ a {
   }
 
   .header-image.getsetup {
-    height: 320px;
-    right: -10%;
+    width: 540px;
+    right: -15%;
   }
 
   .image-container.iflix4-0 {
@@ -2605,7 +2605,7 @@ a {
   }
 
   .header-image.getsetup {
-    height: 240px;
+    width: 380px;
   }
 
   .image-container.iflix4-0 {
@@ -3089,7 +3089,7 @@ a {
   }
 
   .header-image.getsetup {
-    height: 160px;
+    width: 240px;
     right: -20%;
   }
 

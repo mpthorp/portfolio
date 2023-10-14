@@ -933,8 +933,6 @@ a {
 
 .shadow64.gsu-embed-aol {
   width: 50%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
 }
 
 .gsu-mobile-image {
@@ -1941,12 +1939,6 @@ a {
 .gsu-landing-scroll {
   height: 880px;
   position: relative;
-  overflow: hidden;
-}
-
-.gsu-landing-scroll.shadow64 {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
   overflow: scroll;
 }
 
@@ -1998,11 +1990,6 @@ a {
   grid-row-gap: 24px;
   flex-direction: column;
   display: flex;
-}
-
-.gsu-original-image {
-  border-radius: 8px;
-  overflow: hidden;
 }
 
 .gsu-original {

@@ -1990,6 +1990,7 @@ a {
   grid-row-gap: 24px;
   flex-direction: column;
   display: flex;
+  width: 100%;
 }
 
 .gsu-original {

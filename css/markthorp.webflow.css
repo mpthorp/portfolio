@@ -1906,7 +1906,7 @@ a {
   width: auto;
   height: 400px;
   position: absolute;
-  inset: auto -10% -25% auto;
+  inset: auto -10% -15% auto;
 }
 
 .gsu-landing-scroll {
@@ -2434,6 +2434,7 @@ a {
 
   .gsu-circle {
     height: 200px;
+    bottom: -25%;
   }
 
   .gsu-embeds-description {

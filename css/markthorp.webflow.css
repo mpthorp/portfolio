@@ -1903,10 +1903,11 @@ a {
 }
 
 .gsu-circle {
+  z-index: 0;
   width: auto;
   height: 400px;
   position: absolute;
-  inset: auto -10% -15% auto;
+  inset: auto -10% -25% auto;
 }
 
 .gsu-landing-scroll {
@@ -1995,6 +1996,10 @@ a {
   .paragraph2 {
     font-size: 24px;
     line-height: 32px;
+  }
+
+  .gsu-circle {
+    bottom: -15%;
   }
 }
 
